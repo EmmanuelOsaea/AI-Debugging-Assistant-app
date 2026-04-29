@@ -125,7 +125,7 @@ export default function App() {
         maxWidth: 900,
         margin: 'auto',
         padding: 20,
-        fontFamily: 'Arial, sans-serif',
+        fontFamily: 'Inter', 'Segoe UI', Tahoma
         minHeight: '100vh',
         backgroundColor: '#f0f2f5',
       }}
@@ -210,8 +210,8 @@ export default function App() {
           style={{
             marginTop: 20,
             padding: 12,
-            backgroundColor: '#f8d7da',
-            color: '#721c24',
+            backgroundColor: '#d9d8b6',
+            color: '#232d99',
             borderRadius: 6,
             maxWidth: 700,
             marginLeft: 'auto',
