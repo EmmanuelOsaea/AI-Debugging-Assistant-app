@@ -19,7 +19,7 @@ function CollapsibleSection({ title, children }) {
           fontWeight: 'bold',
           padding: 0,
           marginBottom: 6,
-          color: '#007bff',
+          color: '#5ed68a',
         }}
         aria-expanded={open}
       >
@@ -29,7 +29,7 @@ function CollapsibleSection({ title, children }) {
         <div
           style={{
             padding: 10,
-            backgroundColor: '#f9f9f9',
+            backgroundColor: '#636161',
             borderRadius: 4,
             whiteSpace: 'pre-wrap',
             fontFamily: 'monospace',
