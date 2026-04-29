@@ -32,8 +32,8 @@ function CollapsibleSection({ title, children }) {
             backgroundColor: '#636161',
             borderRadius: 4,
             whiteSpace: 'pre-wrap',
-            fontFamily: 'monospace',
-            fontSize: 14,
+            fontFamily: 'courier new',
+            fontSize: 16,
           }}
         >
           {children}
