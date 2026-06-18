@@ -125,7 +125,7 @@ export default function App() {
         maxWidth: 900,
         margin: 'auto',
         padding: 20,
-        fontFamily: 'Inter', 'Segoe UI', Tahoma
+        fontFamily: 'Inter, Segoe UI, Tahoma'
         minHeight: '100vh',
         backgroundColor: '#f0f2f5',
       }}
