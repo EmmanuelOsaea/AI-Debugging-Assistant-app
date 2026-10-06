@@ -1,1 +1,6 @@
 
+@plugin "daisyui/theme" {
+  name: "strawberry"; /* 1. Name your custom theme here */
+  default: true;        /* Set to true if this is your default theme */
+  prefersdark: false;
+  color-scheme: "light";
