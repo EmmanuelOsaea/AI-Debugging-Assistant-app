@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         // --- PEAR THEME TOKENS ---
-        coffee: {
+        pear: {
           background: ' ', // 
           primary: '  ',    // 
           secondary: '   ',  // 
@@ -12,7 +12,7 @@ module.exports = {
         },
         
         // --- BREAD THEME TOKENS ---
-        cake: {
+        bread: {
           background: ' ',       // 
           primary: ' ',    //
           secondary: ' ',  // 
