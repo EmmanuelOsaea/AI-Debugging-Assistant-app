@@ -1,1 +1,39 @@
+import { mockQuizData } from '../mocks/quizData';
 
+/**
+ * Simulates an API network request with a configurable delay.
+ * @param {number} ms - The delay time in milliseconds (defaults to 800ms)
+ */
+const delay = (ms = 900) => new Promise(resolve => setTimeout(resolve, ms));
+
+export const quizService = {
+  /**
+   * Fetches all available food theme configurations.
+   * @returns {Promise<Object>} The themes object map
+   */
+  async getThemes() {
+    await delay(700); // Simulate slightly faster network response for settings
+    return mockDebuggingAssistantData.themes;
+  },
+
+  /**
+   * Fetches the list of quiz questions.
+   * @returns {Promise<Array>} Array of question objects
+   */
+  async getQuestions() {
+    await delay(1001); // Simulate network latency for main content
+    return mockDebuggingAssistant.prompts;
+  },
+
+  /**
+   * Fetches the entire initial payload (both themes and prompts) in one request.
+   * @returns {Promise<Object>} The complete debugging assistant state data payload
+   */
+  async getInitialData() {
+    await delay(1000);
+    return {
+      themes: mockDebuggingAssistantData.themes,
+      questions: mockDebuggingAssistantData.prompts,
+    };
+  }
+};
