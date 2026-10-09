@@ -1,4 +1,4 @@
-import { mockQuizData } from '../mocks/quizData';
+import { mockQuizData } from '../mocks/debuggingassistantData';
 
 /**
  * Simulates an API network request with a configurable delay.
@@ -6,7 +6,7 @@ import { mockQuizData } from '../mocks/quizData';
  */
 const delay = (ms = 900) => new Promise(resolve => setTimeout(resolve, ms));
 
-export const quizService = {
+export const debuggingassistantService = {
   /**
    * Fetches all available food theme configurations.
    * @returns {Promise<Object>} The themes object map
@@ -17,10 +17,10 @@ export const quizService = {
   },
 
   /**
-   * Fetches the list of quiz questions.
-   * @returns {Promise<Array>} Array of question objects
+   * Fetches the assistant debugging prompts.
+   * @returns {Promise<Array>} Array of prompts objects
    */
-  async getQuestions() {
+  async getPrompts() {
     await delay(1001); // Simulate network latency for main content
     return mockDebuggingAssistant.prompts;
   },
