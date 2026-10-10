@@ -13,8 +13,8 @@
   /* Interactive Debugging Assistant State Colors */
   --prompt-loading: #FFF700;  /* Lemon */
   --prompt-analyzing: #00BFFF;    /* Prussian blue */
-  --prompt-generating: ;
-  --prompt-neutral-border: ; /* Default unselected answer border */
+  --prompt-generating: #66023C; /* Tyrian purple */
+  --prompt-neutral-border: #DCDCDC; /* Default unselected answer border */
 
   /* Global Layout Properties */
   --border-radius: 12.2px;
