@@ -2,13 +2,13 @@
 :root {
   /* Layout Base Colors */
   --bg-color: #BF8654;       
-  --surface-color: ;     
-  --text-main: #FFFFFF;         
+  --surface-color:  #98FF98;      
+  --text-main: #FFFFFF;
   --text-muted: #000000;        
 
   /* AI Agent Accent Colors */
-  --agent-primary: ;     /* for AI/Agent identity */
-  --agent-accent:  ;      /*  for secondary highlights */
+  --agent-primary: #000000;     /* for AI/Agent identity */
+  --agent-accent: #D2042D;      /*  for secondary highlights */
 
   /* Interactive Debugging Assistant State Colors */
   --prompt-loading: #FFF700;  /* Lemon */
