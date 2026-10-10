@@ -1,7 +1,7 @@
 /* 1. DEFINE YOUR THEME TOKENS (Fries and Fried chicken color theme) */
 :root {
   /* Layout Base Colors */
-  --bg-color: ;       
+  --bg-color:.    ;       
   --surface-color: ;     
   --text-main: ;         
   --text-muted:  ;        
@@ -10,9 +10,9 @@
   --agent-primary: ;     /* for AI/Agent identity */
   --agent-accent:  ;      /*  for secondary highlights */
 
-  /* Interactive Website building State Colors */
-  --prompt-loading: ;      /*    */
-  --prompt-analyzing: ;    /*  */
+  /* Interactive Debugging Assistant State Colors */
+  --prompt-loading: #FFF700;  /* Lemon */
+  --prompt-analyzing: #00BFFF;    /* Prussian blue */
   --prompt-generating: ;
   --prompt-neutral-border: ; /* Default unselected answer border */
 
