@@ -19,10 +19,10 @@ export interface ThemePalette {
 }
 
 export const THEME_PALETTES: Record<string, ThemePalette> = {
-  // 🍗 The Fries and Fried Chicken  Palette
-  friedChicken: {
-    id: "fried-chicken",
-    name: "Fries & Fried Chicken",
+  // 🍗 Bread and Pear Palette
+  Bread: {
+    id: "Bread",
+    name: "Bread & Pear",
     bgPage: {
       light: "oklch(   ) ",     
       dark: "oklch(.      )",  
