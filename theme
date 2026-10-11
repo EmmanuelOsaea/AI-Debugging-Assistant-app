@@ -12,12 +12,12 @@ plugin "daisyui/theme" {
 
 
   /* 3. Primary & Accent Colors */
-  --color-primary: oklch(.      );        
-  --color-primary-content: oklch(.       );
-  --color-secondary: oklch(.     );
-  --color-secondary-content: oklch(.       )
-  --color-accent: oklch(   ); 
-  --color-accent-content: oklch(.    );
+  --color-primary: oklch(96.1% 0.115 110);        
+  --color-primary-content: oklch(91.7% 0.175 110);
+  --color-secondary: oklch(59.8% 0.116 122.1);
+  --color-secondary-content: oklch(85.4% 0.198 108.5);
+  --color-accent: oklch(72.5% 0.182 110); 
+  --color-accent-content: oklch(55.2% 0.151 112);
 
 /* 4. Functional UI Feedback Colors */
   --color-info: oklch (.   );
