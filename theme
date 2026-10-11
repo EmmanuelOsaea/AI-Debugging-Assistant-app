@@ -4,14 +4,14 @@ plugin "daisyui/theme" {
   prefersdark: false;
   color-scheme: "light";
 
-  /* 2. Base/Background Colors (.    ) */
+  /* 2. Base/Background Colors */
   --color-base-100: oklch(.     );      
   --color-base-200: oklch(.        );       
   --color-base-300: oklch(.         );       
   --color-base-content: oklch(.      );   
 
 
-  /* 3. Primary & Accent Colors (.     ) */
+  /* 3. Primary & Accent Colors */
   --color-primary: oklch(.      );        
   --color-primary-content: oklch(.       );
   --color-secondary: oklch(.     );
