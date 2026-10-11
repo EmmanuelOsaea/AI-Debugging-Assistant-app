@@ -5,10 +5,10 @@ plugin "daisyui/theme" {
   color-scheme: "light";
 
   /* 2. Base/Background Colors */
-  --color-base-100: oklch(.     );      
-  --color-base-200: oklch(.        );       
-  --color-base-300: oklch(.         );       
-  --color-base-content: oklch(.      );   
+  --color-base-100: oklch(96.2% 0.015 84);      
+  --color-base-200: oklch(88.5% 0.045 84);       
+  --color-base-300: oklch(81.2% 0.044 83.1);       
+  --color-base-content: oklch(58.6% 0.041 82);   
 
 
   /* 3. Primary & Accent Colors */
