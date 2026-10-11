@@ -28,8 +28,8 @@ export const THEME_PALETTES: Record<string, ThemePalette> = {
       dark: "oklch(.      )",  
     },
     bgSurface: {
-      light: "oklch(0.80 0.10 64.9)",     // Caramel Ice Cream (#ECAF73)
-      dark: "oklch(0.38 0.14 43.1)",      // Dark Crispy Brown (#813B10)
+      light: "oklch(.  )",    
+      dark: "oklch( )",      
     },
     borderSubtle: {
       light: "oklch(0.85 0.00 0.0)",      // Light Ash (#D2D2D2)
