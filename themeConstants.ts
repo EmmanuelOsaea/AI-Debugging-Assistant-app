@@ -24,12 +24,12 @@ export const THEME_PALETTES: Record<string, ThemePalette> = {
     id: "Bread",
     name: "Bread & Pear",
     bgPage: {
-      light: "oklch(   ) ",     
-      dark: "oklch(.      )",  
+      light: "oklch(96.2% 0.015 84)",     
+      dark: "oklch(88.5% 0.045 84)",      
     },
     bgSurface: {
-      light: "oklch(.  )",    
-      dark: "oklch( )",      
+      light: "oklch(81.2% 0.044 83.1)",    
+      dark: "oklch(58.6% 0.041 82)",      
     },
     borderSubtle: {
       light: "oklch(0.85 0.00 0.0)",      // Light Ash (#D2D2D2)
