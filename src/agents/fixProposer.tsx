@@ -17,18 +17,18 @@ export const LoginInspector: React.FC = () => {
   };
 
   return (
-    <div className="p-6 bg- -800 rounded-lg shadow-md text-white">
+    <div className="p-6 bg-lemon -800 rounded-lg shadow-md text-white">
       <h2 className="text-xl font-bold mb-4">🔐 Login & Auth Inspector</h2>
       <input
         type="text"
-        className="w-full p-2 bg- -950 border border- -700 rounded text-sm mb-4"
+        className="w-full p-2 bg-white-950 border border-white-700 rounded text-sm mb-4"
         placeholder="Paste your auth configurations or context..."
         value={authConfig}
         onChange={(e) => setAuthConfig(e.target.value)}
       />
       <button
         onClick={inspectAuth}
-        className="px-4 py-2 bg- -600 hover:bg- -700 rounded font-semibold"
+        className="px-4 py-2 bg-lemon-600 hover:bg-lemon-700 rounded font-semibold"
       >
         {isInspecting ? 'Inspecting Tokens...' : 'Scan Auth Flow'}
       </button>
