@@ -28,7 +28,7 @@ export const LoginInspector: React.FC = () => {
       />
       <button
         onClick={inspectAuth}
-        className="px-4 py-2 bg-lemon-600 hover:bg-lemon-700 rounded font-semibold"
+        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 rounded font-semibold"
       >
         {isInspecting ? 'Inspecting Tokens...' : 'Scan Auth Flow'}
       </button>
