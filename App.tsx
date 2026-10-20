@@ -15,7 +15,7 @@ export default function App() {
           <div 
             key={step} 
             className={`p-2 rounded flex-1 text-center font-bold ${
-              currentStep === step ? 'bg-lemon-600 text-white' : 'bg-lemon-800 text-white-400'
+              currentStep === step ? 'bg-brown-600 text-white' : 'bg-lemon-800 text-white-400'
             }`}
           >
             {step}
