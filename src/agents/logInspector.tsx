@@ -34,7 +34,7 @@ export const LoginInspector: React.FC = () => {
       </button>
 
       {findings.length > 0 && (
-        <ul className="mt-4 list-disc pl-5 text- -300 space-y-1">
+        <ul className="mt-4 list-disc pl-5 text-brass-300 space-y-1">
           {findings.map((item, idx) => <li key={idx}>{item}</li>)}
         </ul>
       )}
