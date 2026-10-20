@@ -15,7 +15,7 @@ export default function App() {
           <div 
             key={step} 
             className={`p-2 rounded flex-1 text-center font-bold ${
-              currentStep === step ? 'bg-blue-600 text-white' : 'bg-lemon-800 text-lemon-400'
+              currentStep === step ? 'bg-blue-600 text-white' : 'bg-lemon-800 text-white-400'
             }`}
           >
             {step}
@@ -29,7 +29,7 @@ export default function App() {
           <div>
             <h2 className="text-xl font-bold mb-2">🚨 Triage Agent Active</h2>
             <p className="text-lemon-300 mb-4">Analyzing issue severity and assigning components...</p>
-            <button onClick={() => setCurrentStep('INSPECT')} className="bg-blue-500 px-4 py-2 rounded font-medium">
+            <button onClick={() => setCurrentStep('TRIAGE')} className="bg-blue-500 px-4 py-2 rounded font-medium">
               Pass to Inspector Agent ➔
             </button>
           </div>
@@ -39,12 +39,60 @@ export default function App() {
           <div>
             <h2 className="text-xl font-bold mb-2">🔍 Inspector Agent Active</h2>
             <p className="text-lemon-300 mb-4">Scanning file tokens for TypeScript build blockers...</p>
-            <button onClick={() => setCurrentStep('SUMMARIZE')} className="bg-blue-500 px-4 py-2 rounded font-medium">
+            <button onClick={() => setCurrentStep('INSPECT')} className="bg-blue-500 px-4 py-2 rounded font-medium">
               Pass to Summarizer Agent ➔
             </button>
           </div>
         )}
 
+       
+        {currentStep === 'SUMMARIZE' && (
+          <div>
+            <h2 className="text-xl font-bold mb-2">🔍 Inspector Agent Active</h2>
+            <p className="text-lemon-300 mb-4">Scanning file tokens for TypeScript build blockers...</p>
+            <button onClick={() => setCurrentStep('SUMMARIZE')} className="bg-blue-500 px-4 py-2 rounded font-medium">
+              Pass to Propose Agent ➔
+            </button>
+          </div>
+        )}
+
+      
+      {currentStep === 'PROPOSE' && (
+          <div>
+            <h2 className="text-xl font-bold mb-2">🔍 Inspector Agent Active</h2>
+            <p className="text-lemon-300 mb-4">Scanning file tokens for TypeScript build blockers...</p>
+            <button onClick={() => setCurrentStep('PROPOSE')} className="bg-blue-500 px-4 py-2 rounded font-medium">
+              Pass to Validate Agent ➔
+            </button>
+          </div>
+        )}
+
+          currentStep === 'VALIDATE' && (
+          <div>
+            <h2 className="text-xl font-bold mb-2">🔍 Inspector Agent Active</h2>
+            <p className="text-lemon-300 mb-4">Scanning file tokens for TypeScript build blockers...</p>
+            <button onClick={() => setCurrentStep('VALIDATE')} className="bg-blue-500 px-4 py-2 rounded font-medium">
+              Pass to Done ➔
+            </button>
+          </div>
+        )}
+
+          
+          
+              
+      
+        
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
         {/* Repeat simple blocks for SUMMARIZE, PROPOSE, and VALIDATE */}
       </div>
     </div>
